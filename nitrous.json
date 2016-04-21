@@ -1,0 +1,9 @@
+{
+  "template": "php-nginx", 
+  "ports": [80],
+  "name": "Discourse Development Template",
+  "logo": "http://i.imgur.com/DD6AioH.png",
+  "scripts": {
+    "Start nginx": "systemctl start nginx"
+  }
+}
